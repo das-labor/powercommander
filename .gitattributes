@@ -1,1 +1,24 @@
 * text=auto !eol
+avr_interface/Beschreibung.txt -text
+avr_interface/Makefile -text
+avr_interface/can/can.c -text
+avr_interface/can/can.h -text
+avr_interface/can/can_handler.c -text
+avr_interface/can/can_handler.h -text
+avr_interface/can/lap.c -text
+avr_interface/can/lap.h -text
+avr_interface/can/mcp2510regs.h -text
+avr_interface/can/spi.c -text
+avr_interface/can/spi.h -text
+avr_interface/config.h -text
+avr_interface/led.h -text
+avr_interface/main.c -text
+avr_interface/switch.c -text
+avr_interface/switch.h -text
+avr_interface/twi.c -text
+avr_interface/twi.h -text
+avr_interface/twi_master/twi_master.c -text
+avr_interface/twi_master/twi_master.h -text
+avr_interface/xlap.c -text
+avr_interface/xlap.h -text
+include/PowerCommander.h -text
