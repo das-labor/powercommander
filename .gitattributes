@@ -1,4 +1,14 @@
 * text=auto !eol
+avr_controll/Beschreibung.txt -text
+avr_controll/Makefile -text
+avr_controll/PowerCommander_matrix.h -text
+avr_controll/fkt.c -text
+avr_controll/fkt.h -text
+avr_controll/main.c -text
+avr_controll/pc_init.c -text
+avr_controll/pc_init.h -text
+avr_controll/twi_slave/twi_slave.c -text
+avr_controll/twi_slave/twi_slave.h -text
 avr_interface/Beschreibung.txt -text
 avr_interface/Makefile -text
 avr_interface/can/can.c -text
