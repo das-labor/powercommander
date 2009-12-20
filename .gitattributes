@@ -27,6 +27,4 @@ avr_interface/switch.c -text
 avr_interface/switch.h -text
 avr_interface/twi_master/twi_master.c -text
 avr_interface/twi_master/twi_master.h -text
-avr_interface/xlap.c -text
-avr_interface/xlap.h -text
 include/PowerCommander.h -text
