@@ -2,6 +2,7 @@
 avr_controll/Beschreibung.txt -text
 avr_controll/Makefile -text
 avr_controll/PowerCommander_matrix.h -text
+avr_controll/config.h -text
 avr_controll/fkt.c -text
 avr_controll/fkt.h -text
 avr_controll/main.c -text
