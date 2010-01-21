@@ -19,6 +19,8 @@ avr_interface/can/lap.h -text
 avr_interface/can/mcp2510regs.h -text
 avr_interface/can/spi.c -text
 avr_interface/can/spi.h -text
+avr_interface/can_handler.c -text
+avr_interface/can_handler.h -text
 avr_interface/config.h -text
 avr_interface/led.h -text
 avr_interface/main.c -text
