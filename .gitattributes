@@ -22,6 +22,8 @@ avr_interface/can/spi.h -text
 avr_interface/can_handler.c -text
 avr_interface/can_handler.h -text
 avr_interface/config.h -text
+avr_interface/i2c_funktionen.c -text
+avr_interface/i2c_funktionen.h -text
 avr_interface/led.h -text
 avr_interface/main.c -text
 avr_interface/switch.c -text
