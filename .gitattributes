@@ -10,15 +10,6 @@ avr_controll/pc_init.c -text
 avr_controll/pc_init.h -text
 avr_interface/Beschreibung.txt -text
 avr_interface/Makefile -text
-avr_interface/can/can.c -text
-avr_interface/can/can.h -text
-avr_interface/can/can_handler.c -text
-avr_interface/can/can_handler.h -text
-avr_interface/can/lap.c -text
-avr_interface/can/lap.h -text
-avr_interface/can/mcp2510regs.h -text
-avr_interface/can/spi.c -text
-avr_interface/can/spi.h -text
 avr_interface/can_handler.c -text
 avr_interface/can_handler.h -text
 avr_interface/config.h -text
