@@ -11,6 +11,8 @@ avr_controll/pc_init.h -text
 avr_interface/Beschreibung.txt -text
 avr_interface/Makefile -text
 avr_interface/config.h -text
+avr_interface/hardware.c -text
+avr_interface/hardware.h -text
 avr_interface/i2c_com.c -text
 avr_interface/i2c_com.h -text
 avr_interface/main.c -text
