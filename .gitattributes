@@ -10,11 +10,9 @@ avr_controll/pc_init.c -text
 avr_controll/pc_init.h -text
 avr_interface/Beschreibung.txt -text
 avr_interface/Makefile -text
-avr_interface/can_handler.c -text
-avr_interface/can_handler.h -text
 avr_interface/config.h -text
-avr_interface/i2c_funktionen.c -text
-avr_interface/i2c_funktionen.h -text
+avr_interface/i2c_com.c -text
+avr_interface/i2c_com.h -text
 avr_interface/main.c -text
 avr_interface/statusled.c -text
 avr_interface/statusled.h -text
