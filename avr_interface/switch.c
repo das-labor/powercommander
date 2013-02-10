@@ -78,11 +78,11 @@ void handle_main_switch_timeout(void) {
 		if (!timeout_cnt)
 		{
 			/* turn of lights, preset default dim level */
-			set_lamp_all(ROOM_VORTRAG,0);
-			set_lamp_all(ROOM_LOUNGE,0);
-			set_lamp_all(ROOM_KUECHE,0);
+			set_lamp_all(ROOM_VORTRAG, 0);
+			set_lamp_all(ROOM_LOUNGE, 0);
+			set_lamp_all(ROOM_KUECHE, 0);
 			/* no need to handle other relays, they are controlled by set_lamp... */
-			outputdata.ports &= ~(1<<SWA_HS)|(1<<SWA_KLO)|(1<<SWA_STECKDOSEN|1<<SWA_BEAMER);
+			outputdata.ports &= ~((1<<SWA_HS) | (1<<SWA_KLO) | (1<<SWA_STECKDOSEN) | (1<<SWA_BEAMER));
 			twi_send();
 		}
 	}
@@ -100,14 +100,14 @@ void exec(uint8_t index) {
 	if (index == 0) {
 		if (stat_inputs.inputs.hauptschalter == 1) {
 			timeout_cnt = 0;
-			outputdata.ports |= (1<<SWA_HS)|(1<<SWA_KLO)|(1<<SWA_STECKDOSEN);
+			outputdata.ports |= (1<<SWA_HS) | (1<<SWA_KLO) | (1<<SWA_STECKDOSEN);
 			twi_send();
 		}
 		else
 		{
-			set_bright_all(ROOM_VORTRAG,178);
-			set_bright_all(ROOM_KUECHE,178);
-			set_bright_all(ROOM_LOUNGE,178);
+			set_bright_all(ROOM_VORTRAG, 178);
+			set_bright_all(ROOM_KUECHE, 178);
+			set_bright_all(ROOM_LOUNGE, 178);
 			/* start timeout, shutdown after 5 seconds */
 			start_main_switch_timeout();
 		}
@@ -263,7 +263,7 @@ uint8_t pwm_get_max(taster_status *tst)
 
 void lamp_dim(taster_status *tst) {
 	uint8_t val;
-	if(!tst->room){
+	if (!tst->room) {
 		if (!((outputdata.ports >> SWL_VORTRAG) & 0x01))
 		{
 			set_lamp_all(ROOM_VORTRAG, 1);
@@ -277,7 +277,6 @@ void lamp_dim(taster_status *tst) {
 			set_lamp_all(ROOM_LOUNGE, 1);
 			virt_pwm_set_all(tst, 0, 0);
 		}
-
 	}
 
 	if (tst->dim_dir)
@@ -307,10 +306,10 @@ void lamp_dim(taster_status *tst) {
 
 
 void toggle_vortrag() {
-	set_lamp_all(ROOM_VORTRAG, (outputdata.ports >> SWL_VORTRAG) & 0x01?0:1);
+	set_lamp_all(ROOM_VORTRAG, (outputdata.ports >> SWL_VORTRAG) & 0x01 ? 0 : 1);
 }
 void toggle_lounge() {
-	set_lamp_all(ROOM_LOUNGE, (outputdata.ports >> SWL_LOUNGE) & 0x01?0:1);
+	set_lamp_all(ROOM_LOUNGE, (outputdata.ports >> SWL_LOUNGE) & 0x01 ? 0 : 1);
 }
 
 
