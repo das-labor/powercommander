@@ -8,6 +8,8 @@ avr_master/hauptschalter.c -text
 avr_master/hauptschalter.h -text
 avr_master/i2c_com.c -text
 avr_master/i2c_com.h -text
+avr_master/lamp_out.c -text
+avr_master/lamp_out.h -text
 avr_master/main.c -text
 avr_master/statusled.c -text
 avr_master/statusled.h -text
