@@ -17,11 +17,8 @@ avr_master/virt_lamp.c -text
 avr_master/virt_lamp.h -text
 avr_slave/Beschreibung.txt -text
 avr_slave/Makefile -text
-avr_slave/PowerCommander_matrix.h -text
 avr_slave/config.h -text
 avr_slave/fkt.c -text
 avr_slave/fkt.h -text
 avr_slave/main.c -text
-avr_slave/pc_init.c -text
-avr_slave/pc_init.h -text
 include/PowerCommander.h -text
