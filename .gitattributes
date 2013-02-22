@@ -20,6 +20,7 @@ avr_interface/statusled.c -text
 avr_interface/statusled.h -text
 avr_interface/switch.c -text
 avr_interface/switch.h -text
+avr_interface/umfeld.txt -text
 avr_interface/virt_lamp.c -text
 avr_interface/virt_lamp.h -text
 include/PowerCommander.h -text
