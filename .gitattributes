@@ -25,4 +25,6 @@ avr_slave/config.h -text
 avr_slave/fkt.c -text
 avr_slave/fkt.h -text
 avr_slave/main.c -text
+bootloader_master/Makefile -text
+bootloader_master/config.h -text
 include/PowerCommander.h -text
